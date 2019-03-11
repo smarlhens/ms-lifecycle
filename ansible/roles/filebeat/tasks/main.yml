@@ -2,6 +2,7 @@
   get_url:
     url: https://download.elastic.co/beats/filebeat/filebeat_1.0.1_amd64.deb
     dest: /tmp/filebeat.deb
+    validate_certs: false
   tags: [filebeat]
 
 - name: Install the package
